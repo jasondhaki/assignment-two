@@ -14,5 +14,29 @@
 }
 
 .btn{
-    background: linear-gradient(30deg, #F7E93F 10%, #FB09B4 51%, #9100F8 100%);
+    background: linear-gradient(15deg, #F7E93F 10%, #FB09B4 51%, #9100F8 100%);
 }
+
+.hero-section{
+    background-image: url(images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.hero-img{
+    background-image: url(images/hero-circle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.hero-section{
+    position: relative;
+}
+
+.new{
+    position: absolute;
+    left: 54%;
+}
+
