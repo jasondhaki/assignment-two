@@ -75,7 +75,7 @@
     position: relative;
 }
 
-footer{
+.footer-section{
     background-image: url(images/footer-bg.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -90,10 +90,20 @@ h2{
     font-size: var(--font-size-h2);
 }
 
+
 .menu ul li{
     transition: transform 0.3s ease-in-out;
 }
 
 .menu ul li:hover{
     transform: scale(1.1);
+}
+
+.layout{
+    transition: transform 0.2s ease-in-out;
+}
+
+.layout:hover{
+    cursor: pointer;
+    transform: scale(1.02);
 }

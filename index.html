@@ -18,7 +18,7 @@
 <body class="inter-font">
     <header class="bg-[#1A0B2E]">
         <nav class="flex justify-between items-center w-[1200px] mx-auto py-6">
-            <div class="logo">
+            <div class="logo layout">
                 <a href="#" class="text-white font-bold text-[32px]">Tech<span class="logo-style">Wave</span></a>
             </div>
             <div class="menu">
@@ -100,31 +100,31 @@
         <section class="choose bg-[#230E3D] py-[120px]">
             <h2 class="font-bold text-white text-center pb-10">Why Choose TechWave</h2>
             <section class="w-[1200px] m-auto grid grid-cols-3 grid-rows-3 gap-[30px]">
-                <div class="row-span-2 col-span-1 bg-[#351165]/40 rounded-4xl px-10 py-[100px]">
+                <div class="layout row-span-2 col-span-1 bg-[#351165]/40 rounded-4xl px-10 py-[100px]">
                     <div><img src="images/headphone.png" alt="headphone"></div>
                     <h1 class="font-bold text-[24px] text-white py-4">Premium Audio Quality</h1>
                     <h4 class="font-normal leading-6 text-white">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</h4>
                 </div>
 
-                <div class="row-span-1 col-span-2 bg-[#351165]/40 rounded-4xl px-10 py-10">
+                <div class="layout row-span-1 col-span-2 bg-[#351165]/40 rounded-4xl px-10 py-10">
                     <div><img src="images/device.png" alt="device"></div>
                     <h1 class="font-bold text-[24px] text-white py-4">Mobile Friendly</h1>
                     <h4 class="font-normal leading-6 text-white">Listen on the go with seamless mobile experience and offline downloads.</h4>
                 </div>
 
-                <div class="row-span-1 col-span-2 bg-[#351165]/40 rounded-4xl px-10 py-10">
+                <div class="layout row-span-1 col-span-2 bg-[#351165]/40 rounded-4xl px-10 py-10">
                     <div><img src="images/location.png" alt="location"></div>
                     <h1 class="font-bold text-[24px] text-white py-4">Global Community</h1>
                     <h4 class="font-normal leading-6 text-white">Connect with tech enthusiasts from over 120 countries worldwide.</h4>
                 </div>
 
-                <div class="row-span-1 col-span-2 bg-[#351165]/40 rounded-4xl px-10 py-10">
+                <div class="layout row-span-1 col-span-2 bg-[#351165]/40 rounded-4xl px-10 py-10">
                     <div><img src="images/thunder.png" alt="thunder"></div>
                     <h1 class="font-bold text-[24px] text-white py-4">Exclusive Interviews</h1>
                     <h4 class="font-normal leading-6 text-white">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</h4>
                 </div>
 
-                <div class="row-span-1 col-span-1 bg-[#351165]/40 rounded-4xl px-10 py-10">
+                <div class="layout row-span-1 col-span-1 bg-[#351165]/40 rounded-4xl px-10 py-10">
                     <div><img src="images/resource.png" alt="resource"></div>
                     <h1 class="font-bold text-[24px] text-white py-4">Rich Resources</h1>
                     <h4 class="font-normal leading-6 text-white">Access show notes, transcripts, and additional learning materials for every episode.</h4>
@@ -135,7 +135,7 @@
         <section class="featured bg-[#1A0B2E] py-[120px]">
             <h2 class="font-bold text-center text-white pb-10">Featured Episodes</h2>
             <section class="featured-episodes w-[1200px] m-auto grid grid-cols-3 grid-rows-1 gap-[30px]">
-                <div class="rounded-4xl bg-[#250D44]">
+                <div class="rounded-4xl bg-[#250D44] layout">
                     <div><video class="rounded-t-4xl" src="videos/video1.mp4" controls></video></div>
                     <div class="p-6">
                         <h3 class="text-[24px] text-white font-bold">The Future of AI in Everyday Life</h3>
@@ -144,7 +144,7 @@
                     </div> 
                 </div>
 
-                <div class="rounded-4xl bg-[#250D44]">
+                <div class="rounded-4xl bg-[#250D44] layout">
                     <div><video class="rounded-t-4xl" src="videos/video2.mp4" controls></video></div>
                     <div class="p-6">
                         <h3 class="text-[24px] text-white font-bold">Building Better Habits for Remote Work</h3>
@@ -153,7 +153,7 @@
                     </div>
                 </div>
 
-                <div class="rounded-4xl bg-[#250D44]">
+                <div class="rounded-4xl bg-[#250D44] layout">
                     <div><video class="rounded-t-4xl" src="videos/video3.mp4" controls></video></div>
                     <div class="p-6">
                         <h3 class="text-[24px] text-white font-bold">Career Growth in Tech: A Roadmap</h3>
@@ -164,7 +164,7 @@
             </section>
 
             <h2 class="font-bold text-center text-white pb-10 pt-[120px]">Meet The Host</h2>
-                <section class="bg-[#250D44] w-[1200px] m-auto rounded-4xl p-[50px] grid grid-cols-5 grid-rows-1 items-center gap-6">
+                <section class="bg-[#250D44] w-[1200px] m-auto rounded-4xl p-[50px] grid grid-cols-5 grid-rows-1 items-center gap-6 layout">
                     <div class="col-span-1 row-span-1">
                         <img src="images/host.png" class="w-full" alt="host">
                     </div>
@@ -182,27 +182,29 @@
         </section>
     </main>
 
-    <footer class="py-[120px] flex flex-col items-center">
-        <h1 class="text-white font-bold text-[60px] text-center pb-2.5">Tech<span class="logo-style">Wave</span></h1>
-        <section class="sponsors flex gap-10">
-            <div class="spotify flex gap-2 items-center">
-                <div><img src="images/spotify.png" alt="spotify"></div>
-                <h4 class="font-medium text-white">Spotify</h4>
-            </div>
-            <div class="apple flex gap-2 items-center">
-                <div><img src="images/apple-podcast.png" alt="apple"></div>
-                <h4 class="font-medium text-white">Apple Podcasts</h4>
-            </div>
-            <div class="utube flex gap-2 items-center">
-                <div><img src="images/youtube-podcast.png" alt="youtube"></div>
-                <h4 class="font-medium text-white">YouTube</h4>
-            </div>
-            <div class="twitter flex gap-2 items-center">
-                <div><img src="images/twitter.png" alt="twitter"></div>
-                <h4 class="font-medium text-white">Twitter</h4>
-            </div>
+    <footer>
+        <section class="footer-section py-[120px] flex flex-col items-center">
+            <a href="#" class="layout text-white font-bold text-[60px] text-center pb-2.5">Tech<span class="logo-style">Wave</span></a>
+            <section class="sponsors flex gap-10">
+                <div class="spotify flex gap-2 items-center layout">
+                    <div><img src="images/spotify.png" alt="spotify"></div>
+                    <h4 class="font-medium text-white">Spotify</h4>
+                </div>
+                <div class="apple flex gap-2 items-center layout">
+                    <div><img src="images/apple-podcast.png" alt="apple"></div>
+                    <h4 class="font-medium text-white">Apple Podcasts</h4>
+                </div>
+                <div class="utube flex gap-2 items-center layout">
+                    <div><img src="images/youtube-podcast.png" alt="youtube"></div>
+                    <h4 class="font-medium text-white">YouTube</h4>
+                </div>
+                <div class="twitter flex gap-2 items-center layout">
+                    <div><img src="images/twitter.png" alt="twitter"></div>
+                    <h4 class="font-medium text-white">Twitter</h4>
+                </div>
+            </section>
+            <h4 class="text-[#FAFAFA] font-normal leading-6 pt-6">&copy; 2026 TechWave Podcast. All rights reserved.</h4>
         </section>
-        <h4 class="text-[#FAFAFA] font-normal leading-6 pt-6">&copy; 2026 TechWave Podcast. All rights reserved.</h4>
     </footer>
 </body>
 </html>
