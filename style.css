@@ -2,19 +2,59 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+:root{
+    --linear-bg1: linear-gradient(10deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    --linear-bg2: linear-gradient(15deg, #F7E93F 10%, #FB09B4 51%, #9100F8 100%);
+    --font-size-h4: 16px;
+    --font-size-h2: 48px;
+}
+
+@keyframes animatedTag {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.15);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.new{
+    position: absolute;
+    left: 54%;
+    animation: animatedTag 2s ease-in-out infinite;
+}
+
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
 
 .logo-style{
-    background: linear-gradient(10deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
+    background: var(--linear-bg1);
     background-clip: text;
     color: transparent;
 }
 
 .btn{
-    background: linear-gradient(15deg, #F7E93F 10%, #FB09B4 51%, #9100F8 100%);
+    background: var(--linear-bg2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
+
+.sub-btn{
+    transition: transform 0.2s ease-in-out;
+}
+
+.sub-btn:hover{
+    transform: scale(1.05);
 }
 
 .hero-section{
@@ -35,14 +75,25 @@
     position: relative;
 }
 
-.new{
-    position: absolute;
-    left: 54%;
-}
-
 footer{
     background-image: url(images/footer-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
+}
+
+h4{
+    font-size: var(--font-size-h4);
+}
+
+h2{
+    font-size: var(--font-size-h2);
+}
+
+.menu ul li{
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu ul li:hover{
+    transform: scale(1.1);
 }
