@@ -107,3 +107,137 @@ h2{
     cursor: pointer;
     transform: scale(1.02);
 }
+
+/* 440px Device */
+
+@media screen and (max-width: 440px){
+    h2{
+        font-size: 32px !important;
+    }
+
+    h4{
+        font-size: 13px !important;
+    }
+
+    .layout{
+        padding: 24px !important;
+        grid-row: span 1 !important;
+        grid-column: span 1 !important;
+    }
+
+    .w-\[1200px\], 
+    .w-\[34\.375\%\], 
+    .w-\[47\%\] {
+        width: 90% !important;
+        margin: 0 auto;
+    }
+
+    /*Nav Bar*/
+
+    nav{
+        padding: 0;
+    }
+
+    .menu, #menu-btn{
+        display: none !important;
+    }
+
+    #hamburger{
+        display: block !important;
+    }
+
+    /*Hero Section*/
+    .hero-section{
+        padding: 40px 0;
+    }
+
+    /*Ratings*/
+    .about{
+        padding: 40px 0;
+    }
+
+    .data{
+        grid-template-columns:repeat(2, 1fr) !important;
+        grid-template-rows:repeat(2, 1fr) !important;
+        row-gap: 10px !important;
+        padding: 40px 0;
+    }
+
+    /*Choose Section*/
+
+    .choose{
+        padding: 40px 0;
+    }
+
+    .choose-layout{
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 1fr 0.75fr 0.75fr 1fr 0.75fr !important;
+    }
+
+
+    /*Featured*/
+    .featured{
+        padding: 40px 0;
+    }
+
+    .featured-episodes{
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 3fr !important;
+    }
+
+    .video{
+        padding: 0 !important;
+    }
+
+    /* Host Section */
+    .host-title{
+        padding: 40px 0;
+    }
+
+    .host-section{
+        grid-template-columns: 1fr !important;
+        grid-template-rows: repeat(2, 1fr) !important;
+    }
+
+    .host-image{
+        grid-column: span 1 !important;
+        grid-row: span 1 !important;
+        width: 50% !important;
+        margin: 0 auto !important;
+    }
+
+    .host-content{
+        grid-column: span 1 !important;
+        grid-row: span 1 !important;
+    }
+
+    .host-content h3{
+        text-align: center;
+    }
+
+    .host-content h4{
+        text-align: center;
+    }
+
+    .socials{
+        justify-content: center !important;
+    }
+
+    /* Footer Section */
+
+    .footer-section{
+        padding: 0 0 40px;
+    }
+
+    .sponsors{
+        width: 70%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .spotify,.apple,.utube,.twitter{
+        padding: 0 !important;
+    }
+}
