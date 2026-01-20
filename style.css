@@ -379,3 +379,75 @@ h2{
         padding: 0 !important;
     }
 }
+
+/* 992 px */
+
+@media screen and (max-width: 992px){
+    h2{
+        font-size: 2.5rem !important;
+    }
+
+    h4{
+        font-size: 0.9rem !important;
+    }
+
+    .w-\[1200px\], 
+    .w-\[34\.375\%\], 
+    .w-\[47\%\] {
+        width: 90% !important;
+        margin: 0 auto;
+    }
+
+    /*Nav Bar*/
+
+    .menu, #menu-btn{
+        display: block !important;
+    }
+
+    #hamburger{
+        display: none !important;
+    }
+
+    /*Hero Section*/
+    .hero-section{
+        padding: 50px 0;
+    }
+
+    /*Ratings*/
+    .about{
+        padding: 50px 0;
+    }
+
+    .data{
+        width: 90%;
+        margin: 0 auto;
+        grid-template-columns:repeat(4, 1fr) !important;
+        grid-template-rows: auto !important;
+        column-gap: 6px !important;
+        padding: 50px 0;
+    }
+
+    /*Choose Section*/
+
+    .choose{
+        padding: 50px 0;
+    }
+
+    .choose-layout{
+        grid-template-columns: repeat(3, 1fr) !important;
+        grid-template-rows: repeat(3, 1fr) !important;
+    }
+
+
+    /*Featured*/
+
+    .featured-episodes{
+        grid-template-columns: repeat(3, 1fr) !important;
+        grid-template-rows: auto !important;
+    }
+
+    .video h3{
+        font-size: 20px;
+    }
+
+}
