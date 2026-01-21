@@ -111,22 +111,15 @@ h2{
     cursor: pointer;
     transform: scale(1.02);
 }
+/* 992 px */
 
-/* 440px Device */
-
-@media screen and (max-width: 440px){
+@media screen and (max-width: 992px){
     h2{
-        font-size: 2rem !important;
+        font-size: 2.5rem !important;
     }
 
     h4{
-        font-size: 0.85rem !important;
-    }
-
-    .layout{
-        padding: 1.5rem !important;
-        grid-row: span 1 !important;
-        grid-column: span 1 !important;
+        font-size: 0.9rem !important;
     }
 
     .w-\[1200px\], 
@@ -138,112 +131,56 @@ h2{
 
     /*Nav Bar*/
 
-    nav{
-        padding: 0;
-    }
-
     .menu, #menu-btn{
-        display: none !important;
+        display: block !important;
     }
 
     #hamburger{
-        display: block !important;
+        display: none !important;
     }
 
     /*Hero Section*/
     .hero-section{
-        padding: 40px 0;
+        padding: 50px 0;
     }
 
     /*Ratings*/
     .about{
-        padding: 40px 0;
+        padding: 50px 0;
     }
 
     .data{
-        grid-template-columns:repeat(2, 1fr) !important;
+        width: 90%;
+        margin: 0 auto;
+        grid-template-columns:repeat(4, 1fr) !important;
         grid-template-rows: auto !important;
-        row-gap: 10px !important;
-        padding: 40px 0;
+        column-gap: 6px !important;
+        padding: 50px 0;
     }
 
     /*Choose Section*/
 
     .choose{
-        padding: 40px 0;
+        padding: 50px 0;
     }
 
     .choose-layout{
-        grid-template-columns: 1fr !important;
-        grid-template-rows: auto !important;
+        grid-template-columns: repeat(3, 1fr) !important;
+        grid-template-rows: repeat(3, 1fr) !important;
     }
 
 
     /*Featured*/
-    .featured{
-        padding: 40px 0;
-    }
 
     .featured-episodes{
-        grid-template-columns: 1fr !important;
+        grid-template-columns: repeat(3, 1fr) !important;
         grid-template-rows: auto !important;
     }
 
-    .video{
-        padding: 0 !important;
+    .video h3{
+        font-size: 20px;
     }
 
-    /* Host Section */
-    .host-title{
-        padding: 40px 0;
-    }
-
-    .host-section{
-        grid-template-columns: 1fr !important;
-        grid-template-rows: auto !important;
-    }
-
-    .host-image{
-        grid-column: span 1 !important;
-        grid-row: span 1 !important;
-        width: 50% !important;
-        margin: 0 auto !important;
-    }
-
-    .host-content{
-        grid-column: span 1 !important;
-        grid-row: span 1 !important;
-    }
-
-    .host-content h3{
-        text-align: center;
-    }
-
-    .host-content h4{
-        text-align: center;
-    }
-
-    .socials{
-        justify-content: center !important;
-    }
-
-    /* Footer Section */
-
-    .footer-section{
-        padding: 0 0 40px;
-    }
-
-    .sponsors{
-        width: 70%;
-        margin: 0 auto;
-        flex-wrap: wrap;
-        gap: 16px;
-        justify-content: center;
-    }
-
-    .spotify,.apple,.utube,.twitter{
-        padding: 0 !important;
-    }
 }
 
 /* 567px Device */
@@ -380,15 +317,21 @@ h2{
     }
 }
 
-/* 992 px */
+/* 440px Device */
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 440px){
     h2{
-        font-size: 2.5rem !important;
+        font-size: 2rem !important;
     }
 
     h4{
-        font-size: 0.9rem !important;
+        font-size: 0.85rem !important;
+    }
+
+    .layout{
+        padding: 1.5rem !important;
+        grid-row: span 1 !important;
+        grid-column: span 1 !important;
     }
 
     .w-\[1200px\], 
@@ -400,54 +343,110 @@ h2{
 
     /*Nav Bar*/
 
+    nav{
+        padding: 0;
+    }
+
     .menu, #menu-btn{
-        display: block !important;
+        display: none !important;
     }
 
     #hamburger{
-        display: none !important;
+        display: block !important;
     }
 
     /*Hero Section*/
     .hero-section{
-        padding: 50px 0;
+        padding: 40px 0;
     }
 
     /*Ratings*/
     .about{
-        padding: 50px 0;
+        padding: 40px 0;
     }
 
     .data{
-        width: 90%;
-        margin: 0 auto;
-        grid-template-columns:repeat(4, 1fr) !important;
+        grid-template-columns:repeat(2, 1fr) !important;
         grid-template-rows: auto !important;
-        column-gap: 6px !important;
-        padding: 50px 0;
+        row-gap: 10px !important;
+        padding: 40px 0;
     }
 
     /*Choose Section*/
 
     .choose{
-        padding: 50px 0;
+        padding: 40px 0;
     }
 
     .choose-layout{
-        grid-template-columns: repeat(3, 1fr) !important;
-        grid-template-rows: repeat(3, 1fr) !important;
+        grid-template-columns: 1fr !important;
+        grid-template-rows: auto !important;
     }
 
 
     /*Featured*/
+    .featured{
+        padding: 40px 0;
+    }
 
     .featured-episodes{
-        grid-template-columns: repeat(3, 1fr) !important;
+        grid-template-columns: 1fr !important;
         grid-template-rows: auto !important;
     }
 
-    .video h3{
-        font-size: 20px;
+    .video{
+        padding: 0 !important;
     }
 
+    /* Host Section */
+    .host-title{
+        padding: 40px 0;
+    }
+
+    .host-section{
+        grid-template-columns: 1fr !important;
+        grid-template-rows: auto !important;
+    }
+
+    .host-image{
+        grid-column: span 1 !important;
+        grid-row: span 1 !important;
+        width: 50% !important;
+        margin: 0 auto !important;
+    }
+
+    .host-content{
+        grid-column: span 1 !important;
+        grid-row: span 1 !important;
+    }
+
+    .host-content h3{
+        text-align: center;
+    }
+
+    .host-content h4{
+        text-align: center;
+    }
+
+    .socials{
+        justify-content: center !important;
+    }
+
+    /* Footer Section */
+
+    .footer-section{
+        padding: 0 0 40px;
+    }
+
+    .sponsors{
+        width: 70%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .spotify,.apple,.utube,.twitter{
+        padding: 0 !important;
+    }
 }
